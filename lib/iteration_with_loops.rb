@@ -3,7 +3,6 @@ def find_min_in_nested_arrays(src)
   new_src = []
   row_index = 0
   while row_index < src.count do
-    element_index = 0
     while element_index < src[row_index].count do
       binding.pry
       new_src << src[row_index].min
